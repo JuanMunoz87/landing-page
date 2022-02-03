@@ -1,9 +1,30 @@
 # landing-page
-Table of Contents
+
 * Instructions
 ## Instructions
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This project is built in a form of UI. It has multiple sections through out the page, with a dynamically navigation menu.
 
-To get started, open js/app.js and start building out the app's functionality
+## Installation
+- For this project use a code software such: Visual Studio Code, Atom, Sublime Text, ect.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## Structure
+css
+- styles.css    
+index.html
+js
+- app.js
+README.md
+
+## Development
+This project will be written in HTML, CSS, and JavaScript. However, most of the work will be created in JavaScript.
+1. Link the application to the HTML
+2. Build the HTML DOM with 4 content of imformation related to the page.
+   - Use class, id's, data attributes. This will be necesary to link to the application.
+3. Navigation is bult dynamically as an unordered list. Start with empty **ul** and use append(), appendChild(), and innerHTML.
+4. When click an item from the menu var, it should scroll you to the corresponded section of the page.
+
+## Contribute 
+Juan P. Munoz
+
+## Link to the project
+https://github.com/JuanMunoz87/landing-page
