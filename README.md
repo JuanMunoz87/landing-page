@@ -10,9 +10,9 @@ This project is built in a form of UI. It has multiple sections through out the 
 ## Structure
 css
 - styles.css    
-index.html
 js
 - app.js
+index.html
 README.md
 
 ## Development
