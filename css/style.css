@@ -62,7 +62,7 @@ section {
 
 
 /* ---- Module Rules ---- */
-
+/****************************************************************************************/
 /* Navigation Styles*/
 .navbar__menu ul {
    padding-left: 0;
@@ -72,10 +72,11 @@ section {
 
 .navbar__menu li {
    display: inline-block;
+   cursor: pointer;
 }
 
 .navbar__menu .menu__link {
-   display: block;
+   /* display: block; */
    padding: 1em;
    font-weight: bold;
    text-decoration: none;
@@ -87,8 +88,8 @@ section {
    color: #fff;
    transition: ease 0.3s all;
 }
-
-/* Header Styles */
+/****************************************************************************************/
+/*** Header Styles ***/
 .page__header {
    background: #fff;
    position: fixed;
@@ -173,7 +174,7 @@ section:nth-of-type(3n) .landing__container::after {
    opacity: 0;
    transition: ease 0.5s all;
 }
-
+ 
 section:nth-of-type(3n + 1) .landing__container::after {
    content: '';
    background: rgb(255,255,255);
@@ -187,7 +188,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
    border-radius: 50%;
    opacity: 0;
    transition: ease 0.5s all;
-}
+} 
 
 
 /* ---- Theme State Rules ---- */
@@ -209,6 +210,7 @@ section.your-active-class .landing__container::after {
 }
 
 /* Section Active Styles Keyframe Animations */
+
 @keyframes rotate {
   from {
      transform: rotate(0deg)
@@ -221,3 +223,4 @@ section.your-active-class .landing__container::after {
                 rotate(-360deg);
   }
 }
+
