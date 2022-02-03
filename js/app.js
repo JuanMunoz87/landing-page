@@ -28,9 +28,9 @@ const menuLinks = document.querySelectorAll(".menu__link");
 //== scroll to each section of the page on a click==//
 menuLinks.forEach((item) => {
    item.addEventListener("click", () => {
-      let el = document.getElementById(item.getAttribute("data-nav"));
-      el.scrollIntoView({behavior:"smooth"});
-      // console.log(el);
+      let element = document.getElementById(item.getAttribute("data-nav"));
+      element.scrollIntoView({behavior:"smooth"});
+      // console.log(element);
    })
 });
 
