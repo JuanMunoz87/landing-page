@@ -8,12 +8,12 @@ This project is built in a form of UI. It has multiple sections through out the 
 - For this project use a code software such: Visual Studio Code, Atom, Sublime Text, ect.
 
 ## Structure
-css
-- styles.css    
-js
-- app.js
-index.html
-README.md
+- CSS
+   - style.css   
+- js
+   - app.js
+- index.html
+- README.md
 
 ## Development
 This project will be written in HTML, CSS, and JavaScript. However, most of the work will be created in JavaScript.
