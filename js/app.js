@@ -71,8 +71,6 @@ function makeActive() {
 
 
 document.addEventListener("scroll", function (e) {
-   // check if it is true that the element is in view while scrolling
-   // if true then change the bg color of the section and the nav element
    makeActive()
 })
 
